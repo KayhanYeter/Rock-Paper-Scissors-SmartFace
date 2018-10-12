@@ -1,0 +1,94 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "f92e-2202-84ae-85eb",
+			"initialized": true,
+			"props": {
+				"children": [
+					"eabe-2b0e-76f8-a55c",
+					"9c51-2985-4723-aa20",
+					"5202-4bb3-f2fe-ec2a"
+				],
+				"isRemovable": true,
+				"name": "page2",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_AROUND",
+					"flexWrap": "NOWRAP",
+					"alignItems": "STRETCH",
+					"alignContent": "STRETCH"
+				},
+				"orientation": "PORTRAIT"
+			},
+			"version": "6.10.2"
+		},
+		{
+			"className": ".statusBar",
+			"id": "eabe-2b0e-76f8-a55c",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f92e-2202-84ae-85eb"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "9c51-2985-4723-aa20",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "f92e-2202-84ae-85eb",
+				"title": ""
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"title": "",
+				"titleColor": "rgba( 0, 0, 0, 1 )",
+				"visible": false
+			}
+		},
+		{
+			"className": ".button",
+			"id": "5202-4bb3-f2fe-ec2a",
+			"props": {
+				"children": [],
+				"name": "startButton",
+				"parent": "f92e-2202-84ae-85eb",
+				"text": "Start",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"borderRadius": 80,
+				"borderWidth": null,
+				"flexProps": {
+					"alignSelf": "CENTER"
+				},
+				"font": {
+					"size": 25,
+					"bold": true,
+					"italic": false,
+					"family": "TimesNewRomanPS",
+					"style": "BoldMT"
+				},
+				"height": 129.344970703125,
+				"text": "Start",
+				"textColor": "rgba( 245, 166, 35, 1 )",
+				"usePageVariable": true,
+				"width": 209.32218424479166
+			}
+		}
+	]
+}

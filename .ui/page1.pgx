@@ -1,0 +1,349 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"ec8f-cf44-bc9d-b8a0"
+				],
+				"isRemovable": true,
+				"name": "page1",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_AROUND",
+					"flexWrap": "NOWRAP"
+				},
+				"orientation": "PORTRAIT"
+			},
+			"version": "6.10.2"
+		},
+		{
+			"className": ".statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "Rock Paper Scissors"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Rock Paper Scissors",
+				"titleColor": "rgba( 0, 0, 0, 1 )",
+				"visible": true
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"id": "ec8f-cf44-bc9d-b8a0",
+			"props": {
+				"children": [
+					"c438-58f1-e513-a1ec",
+					"f84d-540c-3f0a-c64e"
+				],
+				"name": "flexLayout2",
+				"parent": "e891b86d"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 241, 16, 16, 1 )",
+				"flexProps": {
+					"flexGrow": 1,
+					"alignSelf": "STRETCH",
+					"positionType": "RELATIVE",
+					"flexDirection": "COLUMN_REVERSE",
+					"flexWrap": "NOWRAP",
+					"direction": "INHERIT",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START"
+				},
+				"height": null,
+				"width": null
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"hiddenComponent": false,
+			"id": "c438-58f1-e513-a1ec",
+			"props": {
+				"children": [
+					"a8f3-84e8-3423-4ea9",
+					"b8d8-9a20-e364-2c8c",
+					"08c8-0ee3-9c93-31f3"
+				],
+				"name": "flexLayout1",
+				"parent": "ec8f-cf44-bc9d-b8a0",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"justifyContent": "FLEX_START",
+					"flexDirection": "COLUMN",
+					"flexGrow": 6,
+					"alignSelf": "STRETCH",
+					"alignItems": "CENTER"
+				},
+				"height": null,
+				"marginTop": 100,
+				"top": 20,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".imageView",
+			"id": "a8f3-84e8-3423-4ea9",
+			"props": {
+				"autoHeight": 64.86486486486487,
+				"autoWidth": 86.48648648648648,
+				"children": [],
+				"name": "rock",
+				"parent": "c438-58f1-e513-a1ec",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 64.86486486486487,
+				"autoWidth": 86.48648648648648,
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 126.23938483160896,
+				"image": "rock.png",
+				"imageFillType": "STRETCH",
+				"usePageVariable": true,
+				"width": 171.6216216216216
+			}
+		},
+		{
+			"className": ".imageView",
+			"id": "b8d8-9a20-e364-2c8c",
+			"props": {
+				"children": [],
+				"name": "paper",
+				"parent": "c438-58f1-e513-a1ec",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {},
+				"height": 100.56366791596284,
+				"image": "paper.png",
+				"imageFillType": "STRETCH",
+				"marginLeft": 0,
+				"marginTop": 50,
+				"usePageVariable": true,
+				"width": 193.26534786739865
+			}
+		},
+		{
+			"className": ".imageView",
+			"id": "08c8-0ee3-9c93-31f3",
+			"props": {
+				"children": [],
+				"name": "scissors",
+				"parent": "c438-58f1-e513-a1ec",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {},
+				"height": 108.10959274704392,
+				"image": "scissors.png",
+				"imageFillType": "STRETCH",
+				"marginTop": 50,
+				"usePageVariable": true,
+				"width": 196.1994068042652
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"id": "f84d-540c-3f0a-c64e",
+			"props": {
+				"children": [
+					"433d-9132-df8b-bc21",
+					"cea6-9e8d-0c7a-7acf",
+					"80e9-6d76-1729-fd4d",
+					"33cf-bf14-a22c-85c9"
+				],
+				"name": "flexLayout2",
+				"parent": "ec8f-cf44-bc9d-b8a0",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 241, 16, 16, 1 )",
+				"flexProps": {
+					"justifyContent": "FLEX_END",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE",
+					"flexGrow": 2,
+					"alignSelf": "AUTO"
+				},
+				"height": 125.95270517710092,
+				"ios": {
+					"shadowColor": "rgba( 255, 255, 255, 1 )"
+				},
+				"marginBottom": -90,
+				"top": 20,
+				"usePageVariable": true,
+				"width": 373.64864864864865
+			}
+		},
+		{
+			"className": ".textView",
+			"id": "433d-9132-df8b-bc21",
+			"props": {
+				"children": [],
+				"name": "youText",
+				"parent": "f84d-540c-3f0a-c64e",
+				"text": "0",
+				"usePageVariable": true
+			},
+			"type": "TextView",
+			"userProps": {
+				"backgroundColor": "rgba( 241, 16, 16, 1 )",
+				"flexProps": {
+					"alignSelf": "FLEX_START"
+				},
+				"font": {
+					"style": "Bold",
+					"size": 25
+				},
+				"height": 27.027027027027028,
+				"left": 20,
+				"text": "0",
+				"textAlignment": "MIDCENTER",
+				"top": 72,
+				"usePageVariable": true,
+				"width": 136.48648648648648
+			}
+		},
+		{
+			"className": ".label",
+			"id": "cea6-9e8d-0c7a-7acf",
+			"props": {
+				"autoHeight": 29.333333333333332,
+				"autoWidth": 29.145833333333332,
+				"children": [],
+				"name": "computerLa",
+				"parent": "f84d-540c-3f0a-c64e",
+				"text": "AI",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 29.333333333333332,
+				"autoWidth": 29.145833333333332,
+				"flexProps": {
+					"alignSelf": "FLEX_END"
+				},
+				"font": {
+					"size": 25,
+					"bold": true,
+					"italic": false,
+					"family": "TimesNewRomanPS",
+					"style": "BoldMT"
+				},
+				"height": null,
+				"marginBottom": 40,
+				"marginRight": 95,
+				"text": "AI",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".label",
+			"id": "80e9-6d76-1729-fd4d",
+			"props": {
+				"children": [],
+				"name": "userLabel",
+				"parent": "f84d-540c-3f0a-c64e",
+				"text": "YOU",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "FLEX_START"
+				},
+				"font": {
+					"size": 25,
+					"bold": true,
+					"italic": false,
+					"family": "TimesNewRomanPS",
+					"style": "BoldMT"
+				},
+				"height": 27.027027027027028,
+				"ios": {
+					"shadowColor": "rgba( 155, 155, 155, 1 )",
+					"shadowOpacity": 0
+				},
+				"left": 30,
+				"text": "YOU",
+				"textAlignment": "MIDCENTER",
+				"top": -70,
+				"usePageVariable": true,
+				"width": 119.6090285842483
+			}
+		},
+		{
+			"className": ".textView",
+			"id": "33cf-bf14-a22c-85c9",
+			"props": {
+				"children": [],
+				"name": "aıText",
+				"parent": "f84d-540c-3f0a-c64e",
+				"text": "0",
+				"usePageVariable": true
+			},
+			"type": "TextView",
+			"userProps": {
+				"backgroundColor": "rgba( 241, 16, 16, 1 )",
+				"flexProps": {
+					"alignSelf": "FLEX_END"
+				},
+				"font": {
+					"style": "Bold",
+					"size": 25
+				},
+				"height": 27.027027027027028,
+				"html": "0",
+				"right": 40,
+				"text": "0",
+				"textAlignment": "MIDCENTER",
+				"top": -50,
+				"usePageVariable": true,
+				"width": 136.48648648648648
+			}
+		}
+	]
+}

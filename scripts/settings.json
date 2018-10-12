@@ -1,0 +1,13 @@
+{
+	"config": {
+		"theme": {
+			"currentTheme": "rockpapersTheme",
+			"themes": [
+				"defaultTheme",
+				"rockpapersTheme"
+			],
+			"baseTheme": "rockpapersTheme"
+		},
+		"version": "6.10.2"
+	}
+}
